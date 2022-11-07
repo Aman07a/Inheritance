@@ -56,9 +56,9 @@ namespace _09___Inheritance
             // michelle.Work();
             // Console.ReadKey();
 
-            Ticket t1 = new Ticket(10);
-            Ticket t2 = new Ticket(10);
-            Console.WriteLine(t2.Equals(t1));
+            // Ticket t1 = new Ticket(10);
+            // Ticket t2 = new Ticket(10);
+            // Console.WriteLine(t2.Equals(t1));
 
             Console.Read();
         }

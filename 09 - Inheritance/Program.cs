@@ -18,11 +18,17 @@ namespace _09___Inheritance
             // // Method of child class
             // myTV.WatchTV();
 
-            Dog dog = new Dog("Sif", 15);
-            Console.WriteLine($"{dog.Name} is {dog.Age} years old");
-            dog.MakeSound();
-            dog.Play();
-            dog.Eat();
+            // Dog dog = new Dog("Sif", 15);
+            // Console.WriteLine($"{dog.Name} is {dog.Age} years old");
+            // dog.MakeSound();
+            // dog.Play();
+            // dog.Eat();
+
+            Post post1 = new Post("Thanks for the birthday wishes", true, "User");
+            Console.WriteLine(post1.ToString());
+            ImagePost imagePost1 = new ImagePost("Check out my GitHub", "User", "https://github.com/Aman07a", true);
+            Console.WriteLine(imagePost1.ToString());
+            Console.ReadLine();
 
             Console.Read();
         }

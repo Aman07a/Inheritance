@@ -60,6 +60,22 @@ namespace _09___Inheritance
             // Ticket t2 = new Ticket(10);
             // Console.WriteLine(t2.Equals(t1));
 
+            // // Creating two objects of type chair
+            // Chair officeChair = new Chair("Brown", "Plastic");
+            // Chair gamingChair = new Chair("Red", "Wood");
+
+            // // Creating a new object of type car
+            // Car damagedCar = new Car(80f, "Blue");
+
+            // // Add the two chairs to the IDestroyable list of the car
+            // // So that when we destroy the car 
+            // // The destroyable objects that are near the car will get destroyed as well
+            // damagedCar.DestroyablesNearby.Add(officeChair); 
+            // damagedCar.DestroyablesNearby.Add(gamingChair); 
+
+            // // Destroy the car
+            // damagedCar.Destroy();
+
             Console.Read();
         }
 
